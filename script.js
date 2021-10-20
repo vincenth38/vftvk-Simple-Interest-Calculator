@@ -1,8 +1,4 @@
-function updateRate()
-{
-    var rateval = document.getElementById("rate").value;
-    document.getElementById("rate_val").innerText=rateval+"%";
-}
+
 function compute()
 {
       var principal = document.getElementById("principal").value;
@@ -34,4 +30,9 @@ function compute()
       var input = document.getElementById ("principal");
       input.focus ();
 
+}
+function updateRate()
+{
+    var rateval = document.getElementById("rate").value;
+    document.getElementById("rate_val").innerText = rateval + "%";
 }
