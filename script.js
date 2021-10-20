@@ -12,6 +12,8 @@ function compute()
 /*    Verify positive number is used*/
       if (principal <=0 ) {
         alert("Enter a positive number");
+      var input = document.getElementById ("principal");
+      input.focus ();
         return false;}
       else{
 
